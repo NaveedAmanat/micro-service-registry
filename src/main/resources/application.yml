@@ -4,7 +4,7 @@ server:
 
 eureka:
   instance:
-    hostname: "${HOST_NAME}.eureka"
+    hostname: eureka-0
   client:
     register-with-eureka: false
     fetch-registry: false
